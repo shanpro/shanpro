@@ -15,8 +15,7 @@ development:
   database: shanpro_development
   pool: 5
   username: root
-  password:
-  socket: /var/run/mysqld/mysqld.sock
+  password: mysql
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -28,8 +27,7 @@ test:
   database: shanpro_test
   pool: 5
   username: root
-  password:
-  socket: /var/run/mysqld/mysqld.sock
+  password: mysql
 
 production:
   adapter: mysql2
@@ -38,5 +36,4 @@ production:
   database: shanpro_production
   pool: 5
   username: root
-  password:
-  socket: /var/run/mysqld/mysqld.sock
+  password: shanpro
