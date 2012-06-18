@@ -1,0 +1,39 @@
+/* line 12, ../sass/button.scss */
+.button {
+  display: inline;
+  float: left;
+  display: block;
+  margin: 0.7em 0.5em 0.7em 0;
+  border-width: 1px;
+  border-style: solid;
+  font-family: "Lucida Grande", Tahoma, Arial, Verdana, sans-serif;
+  font-size: 100%;
+  line-height: 130%;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #f5f5f5;
+  border-color: #eeeeee #dedede #dedede #eeeeee;
+  color: #565656;
+}
+/* line 75, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/blueprint/stylesheets/blueprint/_buttons.scss */
+.button img {
+  margin: 0 3px -3px 0 !important;
+  padding: 0;
+  border: none;
+  width: 16px;
+  height: 16px;
+  float: none;
+}
+/* line 47, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/blueprint/stylesheets/blueprint/_buttons.scss */
+.button:active {
+  background-color: #6299c5;
+  border-color: #72a9d5 #6299c5 #6299c5 #72a9d5;
+  color: white;
+}
+/* line 62, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/blueprint/stylesheets/blueprint/_buttons.scss */
+.button:hover {
+  background-color: #dff4ff;
+  border-color: #d2f1ff #c2e1ef #c2e1ef #d2f1ff;
+  color: #336699;
+}

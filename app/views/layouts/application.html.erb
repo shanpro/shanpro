@@ -1,14 +1,103 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML Basic 1.1//EN" "http://www.w3.org/TR/xhtml-basic/xhtml-basic11.dtd">
 <html>
-<head>
-  <title>山东蓝海工程</title>
-  <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
+  <head>
+    <head>
+        <title>山东蓝海工程</title>
+        <%= stylesheet_link_tag    "application" %>
+        <%= javascript_include_tag "application" %>
+    </head>
+  </head>
+  <body class="two-col blueprint-grid">
+    <div id="container">
+      <div id="header"><img src="images/index/top_logo.png"/>
+        <div class="clear"></div>
+      </div>
+      <div id="navi">
+        <ul>
+          <li><a href="">首页</a></li>
+          <li><a href="">工程案例</a></li>
+          <li><a href="">施工设备与现场</a></li>
+          <li><a href="">战略合作伙伴</a></li>
+          <li class="last"><a href="">公司简介</a></li>
+        </ul>
+        <div class="search">
+          <label>站内搜索</label>
+          <input/>
+        </div>
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+      <div id="banner"></div>
+      <div id="content">
+        <div class="span-16">
+          <div class="item_list span-8">
+            <h3>服务内容<a>了解更多...</a></h3>
+            <ul>
+              <li class="item"><a>服务内容服务内容服务内容服务内容服务内容服务内容服务内容服务内容</a></li>
+              <li class="item"><a>服务内容服务内容服务内容服务内容服务内容服务内容服务内容服务内容</a></li>
+              <li class="item"><a>服务内容服务内容服务内容服务内容服务内容服务内容服务内容服务内容</a></li>
+              <li class="item"><a>服务内容服务内容服务内容服务内容服务内容服务内容服务内容服务内容</a></li>
+              <li class="item"><a>服务内容服务内容服务内容服务内容服务内容服务内容服务内容服务内容</a></li>
+              <li class="item"><a>服务内容服务内容服务内容服务内容服务内容服务内容服务内容服务内容	</a></li>
+            </ul>
+          </div>
+          <div class="item_list pic_show span-8 last">
+            <h3>公司资质<a>了解更多...</a></h3>
+            <div class="image_wrapper">
+              <!--img(src="")-->
+            </div>
+          </div>
+          <div class="news_list span-16">
+            <h3>新闻中心<a>了解更多...</a></h3>
+            <div class="top_news span-16">
+              <div class="news_image span-4"></div>
+              <div class="top_news_block span-12 last">
+                <h4>新闻标题新闻标题新闻标题新闻标题</h4>
+                <p>内容内容内容内容容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容</p>
+              </div>
+            </div>
+            <ul class="span-16">
+              <li class="news_item"><a>服务内容服务内容服务内容服务内容服务内容服务内容服务内容服务内容</a>
+                <div class="date">2012-02-02</div>
+              </li>
+              <li class="news_item"><a>服务内容服务内容服务内容服务内容服务内容服务内容服务内容服务内容</a>
+                <div class="date">2012-02-02</div>
+              </li>
+              <li class="news_item"><a>服务内容服务内容服务内容服务内容服务内容服务内容服务内容服务内容</a>
+                <div class="date">2012-02-02</div>
+              </li>
+              <li class="news_item"><a>服务内容服务内容服务内容服务内容服务内容服务内容服务内容服务内容</a>
+                <div class="date">2012-02-02</div>
+              </li>
+              <li class="news_item"><a>服务内容服务内容服务内容服务内容服务内容服务内容服务内容服务内容</a>
+                <div class="date">2012-02-02</div>
+              </li>
+              <li class="news_item"><a>服务内容服务内容服务内容服务内容服务内容服务内容服务内容服务内容	</a>
+                <div class="date">2012-02-02</div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="span-8 last">
+          <div class="image_block span-8">
+            <h3>工程案例介绍<a>了解更多</a></h3>
+            <div class="intro">
+              <div class="pic"></div>
+              <div class="desc">潍坊财政局</div>
+            </div>
+          </div>
+        </div>
+        <div class="span-8 last">
+          <div class="image_block span-8">
+            <h3>战略合作伙伴<a>了解更多</a></h3>
+            <div class="intro">
+              <div class="pic"></div>
+              <div class="desc">LG中央空调</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer"></div>
+    </div>
+  </body>
 </html>

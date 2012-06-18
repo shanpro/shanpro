@@ -1,0 +1,63 @@
+/* line 18, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+.form-test label {
+  font-weight: bold;
+}
+/* line 19, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+.form-test fieldset {
+  padding: 1.4em;
+  margin: 0 0 1.5em 0;
+}
+/* line 20, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+.form-test legend {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+/* line 26, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+.form-test input.text, .form-test input.title, .form-test input[type=email], .form-test input[type=text], .form-test input[type=password] {
+  margin: 0.5em 0;
+  background-color: white;
+  padding: 5px;
+}
+/* line 27, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+.form-test input.title {
+  font-size: 1.5em;
+}
+/* line 29, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+.form-test textarea {
+  margin: 0.5em 0;
+  padding: 5px;
+}
+/* line 30, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+.form-test select {
+  margin: 0.5em 0;
+}
+/* line 55, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+.form-test fieldset {
+  border: 1px solid #cccccc;
+}
+/* line 58, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+.form-test input.text, .form-test input.title, .form-test input[type=email], .form-test input[type=text], .form-test input[type=password],
+.form-test textarea {
+  background-color: #fff;
+  border: 1px solid #bbbbbb;
+}
+/* line 61, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+.form-test input.text:focus, .form-test input.title:focus, .form-test input[type=email]:focus, .form-test input[type=text]:focus, .form-test input[type=password]:focus,
+.form-test textarea:focus {
+  border-color: #666666;
+}
+/* line 65, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+.form-test select {
+  background-color: #fff;
+  border-width: 1px;
+  border-style: solid;
+}
+/* line 44, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+.form-test input.text, .form-test input.title, .form-test input[type=email], .form-test input[type=text], .form-test input[type=password] {
+  width: 300px;
+}
+/* line 46, ../../../../../Applications/CodeKit.app/Contents/Resources/engines/compass/frameworks/blueprint/stylesheets/blueprint/_form.scss */
+.form-test textarea {
+  width: 390px;
+  height: 250px;
+}
